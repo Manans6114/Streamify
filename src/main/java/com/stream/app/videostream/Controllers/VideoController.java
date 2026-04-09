@@ -27,7 +27,7 @@ import java.util.UUID;
  */
 @RestController
 @RequestMapping("api/v1/videos")
-@CrossOrigin(origins = "http://localhost:5173") // ✅ CORS fixed for React
+@CrossOrigin(origins = "http://localhost:5173")
 public class VideoController {
 
     private final VideoService videoservice;
