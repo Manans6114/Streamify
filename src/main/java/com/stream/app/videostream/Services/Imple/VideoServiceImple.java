@@ -89,11 +89,11 @@ public class VideoServiceImple implements VideoService {
                 Path path = Paths.get(video.getFilePath());
                 Files.deleteIfExists(path);
                 videoRepo.delete(video);
-                return true;
-            } catch (Exception e) {
-                e.printStackTrace();
-                return false;
-            }
+//                return true;
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//                return false;
+//            }
 
         } else {
             return false;
